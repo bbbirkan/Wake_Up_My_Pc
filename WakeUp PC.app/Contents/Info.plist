@@ -5,17 +5,30 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>WakeUp_Mac</string>
+	<string>WakeUp PC</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>****</string>
+				<string>fold</string>
+				<string>disk</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
-	<string>WakeUp_Mac</string>
+	<string>WakeUp PC</string>
 	<key>CFBundleIconFile</key>
 	<string>PythonApplet.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.pythonmac.unspecified.WakeUp_Mac</string>
+	<string>org.pythonmac.unspecified.WakeUpPC</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>WakeUp_Mac</string>
+	<string>WakeUp PC</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -41,9 +54,9 @@
 	<key>PyOptions</key>
 	<dict>
 		<key>alias</key>
-		<true/>
-		<key>argv_emulation</key>
 		<false/>
+		<key>argv_emulation</key>
+		<true/>
 		<key>emulate_shell_environment</key>
 		<false/>
 		<key>no_chdir</key>
@@ -63,22 +76,21 @@
 	<array/>
 	<key>PyRuntimeLocations</key>
 	<array>
-		<string>@executable_path/../Frameworks/Python.framework/Versions/3.9/Python</string>
-		<string>/Library/Frameworks/Python.framework/Versions/3.9/Python</string>
+		<string>@executable_path/../Frameworks/Python.framework/Versions/3.8/Python</string>
 	</array>
 	<key>PythonInfoDict</key>
 	<dict>
 		<key>PythonExecutable</key>
-		<string>/Users/ruzilia/PycharmProjects/Wake_Up_My_Pc/venv/bin/python</string>
+		<string>/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8</string>
 		<key>PythonLongVersion</key>
-		<string>3.9.4 (v3.9.4:1f2e3088f3, Apr  4 2021, 12:32:44) 
+		<string>3.8.8 (v3.8.8:024d8058b0, Feb 19 2021, 08:48:17) 
 [Clang 6.0 (clang-600.0.57)]</string>
 		<key>PythonShortVersion</key>
-		<string>3.9</string>
+		<string>3.8</string>
 		<key>py2app</key>
 		<dict>
 			<key>alias</key>
-			<true/>
+			<false/>
 			<key>template</key>
 			<string>app</string>
 			<key>version</key>

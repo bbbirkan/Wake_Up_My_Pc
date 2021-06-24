@@ -1,1 +1,0 @@
-/Users/ruzilia/PycharmProjects/Wake_Up_My_Pc/data_save_control.pkl

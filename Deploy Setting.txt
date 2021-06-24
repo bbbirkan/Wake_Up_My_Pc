@@ -1,0 +1,28 @@
+
+
+install Windows
+pyinstaller --onefile --icon=turn_on.ico --windowed tkinter_wol.py
+
+
+
+***Mac***
+
+Step 1: -Go to terminal
+
+pip3 install py2app
+Step 2:
+
+py2applet --make-setup WakeUp.py
+Wrote setup.py
+and
+
+rm -rf build dist 
+Step 3: -Configured your setup file.
+
+Step 4: -Go terminal and then;
+
+python setup.py py2app 
+Your App will be created in the "dist" file.
+
+If you need more information look at the https://py2app.readthedocs.io/en/latest/tutorial.html
+
