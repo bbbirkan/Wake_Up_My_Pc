@@ -1,8 +1,8 @@
 
 
 install Windows
-pyinstaller --onefile --icon=turn_on.ico --windowed tkinter_wol.py
 
+pyinstaller yourcode.pyw --add-data "data;data" 
 
 
 ***Mac***
